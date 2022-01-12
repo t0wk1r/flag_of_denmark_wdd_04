@@ -1,0 +1,30 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.redbox{
+	width: 1000px;
+	height: 600px;
+	margin: auto;
+	margin-top: 100px;
+	background: red;
+	position: relative;
+}
+.bar1{
+	width: 100%;
+	height: 50px;
+	background: #ffffff;
+	position: absolute;
+	top: 50%;
+	transform: translatey(-50%);
+}
+.bar2{
+	width: 50px;
+	height: 100%;
+	background: #ffffff;
+	position: absolute;
+	left: 30%;
+	transform: translatex(-50%);
+}
